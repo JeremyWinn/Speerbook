@@ -1,0 +1,223 @@
+/* body {
+    background-image: url("http://static.vecteezy.com/system/resources/previews/000/091/987/original/maroon-background-pattern-vector.jpg"); 
+
+body {
+    background-image: url("http://www.geocities.ws/iwinnyoulose/red-dots-rising-hd-background-loop-o.gif");
+    background-size: cover;
+
+}
+*/
+
+body {
+    background-image: url("http://stream1.gifsoup.com/view1/1543863/red-background-o.gif");
+    background-size: 210%;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/*Still need to pick a font*/
+@font-face{
+    font-family: "Aaargh";
+    src: url("http://www.aaargh-webfont.woff");
+}
+
+.banner {
+    background-color:  #3d3d29;
+    background-size: cover;
+    text-align: center;
+    padding: 10px;
+    opacity: 1;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    margin: auto;
+    position: fixed;
+}
+
+.banner .pull-left img {
+    width: 50%;
+    position: static;
+}
+
+#banner-title {
+    font-family: Georgia;
+    font-size: 3em;
+    font-style: italic;
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    position: static;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.nav-pills {
+    background-color: black;
+    font: red;
+    position: static;
+    /*float: left;*/
+}
+
+.banner li {
+    color: black;
+    background-color: black;
+    border-radius: 25px;
+}
+
+#brag {
+    font-size: 120%;
+    font-family: Georgia, serif;
+    padding-bottom: 1%;
+    position: relative;
+    color: black;
+}
+    
+/* Don't think this is in use anymore 
+.navbar-custom {
+    color: #FFFFFF;
+    background-color: #CC3333;
+    position: relative;
+}
+*/
+
+.gallery h6 {
+    text-align: center;
+    color: black;
+    font-size: 50%;
+}
+
+
+
+/*revisit the .container vs. .gallery settings here-- the gallery class isn't responsively scaling*/
+.gallery .container {
+    background-color: white;
+    border-radius: 7px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 250px;
+    width: 80%;
+}
+
+.gallery img {
+    width: 70%;
+}
+
+.row {
+    margin: auto;
+}
+
+nav:hover {
+    background-color: white;
+    border-radius: 5px;
+    border-color: black;
+    border: 10px;
+    font-weight: bolder;
+}
+
+.thumbnail:hover {
+    background-image: url("http://stream1.gifsoup.com/view1/1543863/red-background-o.gif");
+    /*background-color: #4d0000;*/
+    border-radius: 90px;
+    border: 3px solid black;
+}
+
+a {
+    color: white;
+}
+
+.caption {
+    text-align: center;
+}
+
+.gallery .row {
+    margin-bottom: 30px;
+}
+
+h6 {
+    color: #cc0000;
+}
+
+.thumbnail {
+    background-color: black;
+    opacity: 1;
+    border-radius: 90px;
+    height: 13%;
+    width: 100%;
+    padding: 20%;
+    margin: auto;
+}
+
+.footer {
+    background: #4d001a;
+    background: -moz-linear-gradient(top,#4d001a 0%,#990033 50%,#cc0044 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#4d001a),color-stop(50%,#990033),color-stop(100%,#cc0044));
+    background: -webkit-linear-gradient(top,#4d001a 0%,#990033 50%,#cc0044 100%);
+    background: -o-linear-gradient(top,#4d001a 0%,#990033 50%,#cc0044 100%);
+    background: -ms-linear-gradient(top,#4d001a 0%,#990033 50%,#cc0044 100%);
+    background: linear-gradient(top,#4d001a 0%,#990033 50%,#cc0044 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4d001a',endColorstr='#cc0044',GradientType=0);
+    position: relative;
+    top: 132px;
+    padding-top: 20px;
+    min-height: 130px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.50);
+    -moz-box-shadow: 0px 0px 8px rgba(0,0,0,0.50);
+    -webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.50);
+
+}
+
+.footer img {
+    width: 30%;
+}
+
+.jumbotron {
+    margin-top: 250px;
+    align-content: center;
+    border: 4px solid black;
+}
+
+.notfound .btn-primary {
+    background: black;
+    color: #ffffff;
+    margin-left: 850px;
+}
+
+.credits {
+    background-color: white;
+    margin-top: 250px;
+    padding: 3px;
+    border-radius: 10px;
+    border: 5px solid black;
+}
+
+.credits td {
+    font-style: Impact;
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 35px 15px 35px 15px;
+}
+
+.credits table {
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.about {
+    background-color: white;
+    margin-top: 250px;
+    border-radius: 10px;
+    border: 5px solid black;
+    padding: 22px;
+}
+
+.about h1 {
+    font-size: 50px;
+    font-family: cursive;
+}
+
+.about p {
+    font-size: 20px;
+    font-family: cursive;
+    padding: 20px;
+}
